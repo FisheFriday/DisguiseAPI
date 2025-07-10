@@ -39,9 +39,10 @@
         <module>v1.20</module>
         <module>v1.20.2</module>
         <module>v1.20.3</module>
-      <module>v1.20.6</module>
-      <module>v1.21</module>
+        <module>v1.20.6</module>
+        <module>v1.21</module>
         <module>v1.21.3</module>
+        <module>v1.21.4</module>
     </modules>
 
     <repositories>
