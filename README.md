@@ -12,6 +12,22 @@ Disguise is an open-source library which manipulates with player skins in Minecr
 The standard Spigot implementation does not provide support for changing skins, so using this API
 you can easily control player skins.
 
+### Update
+This part is mainly about what has been updated for the support up to 1.21.7
+Following things that are updated or edited out:
+
+Added 1.21.4-1.21.7 with almost identical files, just changing a few stuff like pom.xml, imports and texts containing "1.21.#"
+
+Plugin/pom.xml has been updated to include Providers for 1.21.4-1.21.7
+Plugin/src/main/java/net/pinger/disguise/packet/PacketManagerImpl.java registeredProviders has been updated to contain 1.21.4-1.21.7
+
+API/pom.xml has been updated with an updated spigot version, Java version stays the same.
+API/src/main/java/net/pinger/disguise/item/XMaterial.java Potion part has been updated to support 1.8 and 1.9+ potion types. If the code broke stuff, you can edit it out. Main things were to make a safer way of fallbacking to 1.8 potions from 1.9+ potions when the server is in that specified version.
+
+DisguiseAPI/pom.xml has been updated to include the needed modules.
+
+I'm sorry if this might be a bad explanation of what I updated as this is my first ever pull request and successful github repo. I hope that this would help getting support up to 1.21.7
+
 ### Dependency 
 
 To install this repository, you should follow the next steps:
