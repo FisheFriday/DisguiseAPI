@@ -57,3 +57,12 @@ included in this list, write me a message on Pinger#5246 (Discord)
 
 - <a href = "https://www.spigotmc.org/resources/disguise.84079/">DisguisePlus</a>
 - <a href = "">Hynick</a>
+
+### Fork Info
+
+The reason why this fork was created was because of how a lot of users that bought DisguisePlus or Hynick were lied to with "constant" updates.
+So this is why this fork was created with support up to 1.21.7
+I'm happy if the owner saw this and approve the pull request and the users that bough those 2 plugins able to use it in their server.
+Anyway, thats all, I won't be updating this to 1.21.8 or more modern versions unless I feel like to.
+Note that I do not own the API, so some features might not work. I've approved that 1.21.4 will work, but not for 1.21.5+
+### Use this plugin api fork with intent that 1.21.5+ is not tested! Just added to the plugin api.
