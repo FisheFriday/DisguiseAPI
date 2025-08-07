@@ -43,6 +43,9 @@
         <module>v1.21</module>
         <module>v1.21.3</module>
         <module>v1.21.4</module>
+        <module>v1.21.5</module>
+        <module>v1.21.6</module>
+        <module>v1.21.7</module>
     </modules>
 
     <repositories>
